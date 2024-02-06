@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #ffd700; /* Golden color */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffd700; /* Golden color */
+}
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.3); /* Light golden shadow */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffd700; /* Golden color */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #ffd700; /* Golden color */
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #ffd700; /* Golden color */
+    color: #000;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #daa520; /* Dark golden color */
+}
+
